@@ -70,7 +70,7 @@
                             @endforeach
                             <hr>
 
-                            <input type="submit" class="btn btn-primary" value="Salvar">
+                            <input type="submit" class="btn btn-primary" value="Guardar">
                             <a class="btn btn-danger" href="{{route('role.index')}}">Regresar</a>
 
                         </div>

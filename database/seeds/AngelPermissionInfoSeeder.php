@@ -149,16 +149,7 @@ class AngelPermissionInfoSeeder extends Seeder
 
         $permission_all[] = $permission->id;
 
-        /*
-        $permission = Permission::create([
-            'name' => 'Create user',
-            'slug' => 'user.create',
-            'description' => 'El usuario puede crear los users',
-        ]);
-
-        $permission_all[] = $permission->id;
-        */
-        // -----------------------------------------------------
+        // ---------------------------NEW--------------------------
         $permission = Permission::create([
             'name' => 'Ver perfil propio',
             'slug' => 'userown.show',
@@ -174,6 +165,18 @@ class AngelPermissionInfoSeeder extends Seeder
         ]);
 
         $permission_all[] = $permission->id;
+
+        
+        /*
+        $permission = Permission::create([
+            'name' => 'Create user',
+            'slug' => 'user.create',
+            'description' => 'El usuario puede crear los users',
+        ]);
+
+        $permission_all[] = $permission->id;
+        */
+        
 
     // ----------------Permiso Para Modulos------------------- //
 

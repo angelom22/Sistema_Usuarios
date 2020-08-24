@@ -44,7 +44,6 @@
 
                             <hr>
                             
-
                             <a class="btn btn-success" href="{{route('user.edit', $user->id)}}">Editar</a>
                             <a class="btn btn-danger" href="{{route('user.index')}}">Regresar</a>
                         </div>

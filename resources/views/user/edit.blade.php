@@ -44,7 +44,7 @@
                             
                           
                             <input type="submit" class="btn btn-primary" value="Editar">
-
+                            <a class="btn btn-danger" href="{{route('user.index')}}">Regresar</a>
                         </div>
      
                     </form>

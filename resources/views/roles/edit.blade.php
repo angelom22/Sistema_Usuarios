@@ -77,6 +77,7 @@
                             <hr>
 
                             <input type="submit" class="btn btn-primary" value="Salvar">
+                            <a class="btn btn-danger" href="{{route('role.index')}}">Regresar</a>
 
                         </div>
      
